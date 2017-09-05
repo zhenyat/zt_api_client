@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
-    url = "https://zt-api-server.herokuapp.com/categories/1/subjects"
+    url = "http://localhost:3001/categories/1/subjects"  # server: rails s -p 3001
+#    url = "https://zt-api-server.herokuapp.com/categories/1/subjects"
 #    url = "https://btc-e.nz/api/3/info"
 
     begin
